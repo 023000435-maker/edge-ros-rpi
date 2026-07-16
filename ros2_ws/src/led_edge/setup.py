@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='UPSRJ Robotica',
     maintainer_email='jesus.loport@outlook.com',
-    description='Nodo edge de ejemplo: publica en /led_cmd para el ESP32 micro-ROS.',
+    description='Nodo edge de ejemplo: publica en /led_cmd para el esp32 micro-ROS.',
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
