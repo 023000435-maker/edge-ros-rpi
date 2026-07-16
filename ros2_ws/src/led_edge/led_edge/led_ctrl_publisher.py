@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Nodo edge de ejemplo: el usuario controla el parpadeo del LED del ESP32 publicando en /led_cmd.
 
-Este nodo corre en la Raspberry Pi (dentro del container). Publica mensajes
+Este nodo corre en la Raspberry Pi (dentro del container) Publica mensajes
 booleanos en el topic `led_cmd`, al que el ESP32 (micro-ROS) esta
 suscrito. Reemplaza al comando manual `ros2 topic pub --once`.
 
