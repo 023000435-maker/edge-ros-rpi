@@ -23,6 +23,8 @@ setup(
             # Uso: ros2 run led_edge blink
             'blink = led_edge.led_blink_publisher:main',
             'control = led_edge.led_ctrl_publisher:main',
+            # Uso: ros2 run led_edge gateway
+            'gateway = led_edge.led_gateway:main',
         ],
     },
 )
