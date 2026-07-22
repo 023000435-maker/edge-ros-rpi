@@ -24,8 +24,8 @@ class LedGateway(Node):
         self.publisher_ = self.create_publisher(Bool, 'led_cmd', 10)
         
         # creamos subscriptions por cuantos compañeros haya
-        self.sub1 = self.create_subscription(String, 'jose', self.listener_callback, 10)
-        self.sub2 = self.create_subscription(String, 'rivera', self.listener_callback, 10)
+        self.sub1 = self.create_subscription(String, 'yari', self.listener_callback, 10)
+        self.sub2 = self.create_subscription(String, 'rodriguez', self.listener_callback, 10)
         
         self.sub1 # Prevent unused variable warning
         self.sub2 # Prevent unused variable warning
